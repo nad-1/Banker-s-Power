@@ -23,7 +23,7 @@ int main()
 
 	int available[3] = { 3, 3, 2 }; // Available Resources 
 
-
+         int x[n],safe[n],count=0;
 	for (k=0;k<n;k++)
 	{ 
 		x[k] = 0; 
@@ -61,10 +61,10 @@ int main()
 		} 
 	} 
 
-	printf("Following is the SAFE Sequence\n"); 
+	printf("following are sequence"); 
 	for (i=0;i<n-1;i++) 
 		printf(" P%d ->", safe[i]); 
-	printf(" P%d", safe[n-1]); 
+	printf(" P%d->", safe[n-1]); 
 
 	return (0); 
 
