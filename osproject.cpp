@@ -1,5 +1,7 @@
  //There are 5 processes and 3 resource types, resource A with 10 instances, B with 5 instances and C with 7 instances.
  // Find whether the system is in safe state or not?
+#include<math.h>
+#include<string.h>
 #include <stdio.h> 
 #include<conio.h>
 int main() 
@@ -23,7 +25,7 @@ int main()
 
 	int available[3] = { 3, 3, 2 }; // Available Resources 
 
-	int x[n], safe[n], count= 0; 
+	int x[n], safe[n];
 	for (k=0;k<n;k++)
 	{ 
 		x[k] = 0; 
